@@ -22,7 +22,7 @@
   margin: 50px auto;
   text-transform: capitalize;
   background-color: #ff0000;
-  background-image: url("./assets/dex.png");
+  background-image: url("../../assets/dex.png");
   background-size: 526px 600px;
   background-repeat: no-repeat;
   box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
@@ -42,7 +42,7 @@ body {
   text-transform: capitalize;
   font-family: 'Press Start 2P', cursive;
   font-size: 45%;
-  background-image: url("./assets/background.jpg");
+  background-image: url("../../assets/background.jpg");
   background-repeat: no-repeat;
   background-position: center top; /* Adjusted for better centering */
   background-size: cover; /* Ensure background covers the whole page */
