@@ -30,7 +30,7 @@
     height: 150px;
     margin: 10px auto;
     background-color: #000000;
-    background-image: url("../../assets/poke.png");
+    background-image: url("./assets/poke.png");
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
