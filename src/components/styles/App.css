@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@media screen and (min-width: 415px) {
+  .site-container {
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+
+
+
+
+.App {
+  display: flex;
+  border-style: solid;
+  align-items: center;
+  justify-content: space-between; /* Keep the sections balanced */
+  margin: 8px;
+  width: 1020px; /* Increase the overall width */
+  height: 600px;
+  margin: 50px auto;
+  text-transform: capitalize;
+  background-color: #ff0000;
+  background-image: url("../../assets/dex.png");
+  background-size: 526px 600px;
+  background-repeat: no-repeat;
+  box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
+}
+
+
+
+
+* {
+  box-sizing: border-box;
+  size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-transform: capitalize;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 45%;
+  background-image: url("../../assets/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center top; /* Adjusted for better centering */
+  background-size: cover; /* Ensure background covers the whole page */
+  background-color: rgb(255, 255, 255);
+  padding-top: 0; /* Removed padding to avoid top gap */
+  overflow: hidden;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 18px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 0, 0);
+  border-radius: 10px;
+  background-image: url("../../assets/ball.png"); /* Updated path */
+  background-size: 100%;
+  object-fit: contain;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}

@@ -1,0 +1,22 @@
+@media screen and (min-width: 415px){
+  .site-container {
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+.poke-cell {
+  width: 127px;
+  height: 130px;
+  margin: 20px;
+  background-color: rgb(255, 255, 255);
+  background-repeat: no-repeat;
+  text-transform: capitalize;
+  border-radius: 15px;
+  box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.16);
+  display: flex; /* Flexbox for alignment */
+  justify-content: center;
+  align-items: center;
+  align-content:center;
+  border: 2px solid rgba(0, 0, 0, 0.1); /* Added border */
+}

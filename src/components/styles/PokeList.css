@@ -1,0 +1,25 @@
+@media screen and (min-width: 415px){
+  .site-container {
+    flex-direction: column;
+    flex: 1;
+  }
+}
+
+.poke-list {
+    display: flex;
+    border-style: double;
+    border-color: white;
+    text-transform: capitalize;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 33%;
+    height: 32%;
+    padding: 24px;
+    
+    margin-left:90px;
+    margin-bottom:140px;
+    background-color: #000000;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0.5);
+    overflow: auto;
+  }
